@@ -63,7 +63,7 @@ services:
 
   backend:
     # build: ./backend
-    image: cybersleeper/variability-dev-backend-image:latest
+    image: cybersleeper/variability-dev-backend-prod-image:latest
     privileged: true
     restart: unless-stopped
     volumes:
