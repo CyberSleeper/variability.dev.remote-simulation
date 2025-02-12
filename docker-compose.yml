@@ -38,7 +38,7 @@ services:
     depends_on:
       - backend
     ports:
-      - "74:80"
+      - "70:80"
 
   db:
     image: postgres
