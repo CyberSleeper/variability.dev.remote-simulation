@@ -83,7 +83,7 @@ services:
 
   frontend:
     # build: ./frontend
-    image: cybersleeper/variability-dev-frontend-image:latest
+    image: cybersleeper/variability-dev-frontend-prod-image:latest
     restart: unless-stopped
     depends_on:
       - backend
